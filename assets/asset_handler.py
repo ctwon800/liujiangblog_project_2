@@ -145,7 +145,7 @@ class ApproveAsset:
         cpu = models.CPU.objects.create(asset=asset)
         cpu.cpu_model = self.new_asset.cpu_model
         cpu.cpu_count = self.new_asset.cpu_count
-        cpu.cpu_count = self.new_asset.cpu_count
+        cpu.cpu_core_count = self.new_asset.cpu_core_count
         cpu.save()
 
     def _create_RAM(self, asset):
