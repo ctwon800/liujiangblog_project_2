@@ -125,7 +125,7 @@ if __name__ == '__main__':
         "cpu_core_count": "4",
         "cpu_model": "Intel(R) Core(TM) i5-2300 CPU @ 2.80GHz",
         "ram": [
-            {
+            {erwe
                 "slot": "A1",
                 "capacity": 8,
             }
